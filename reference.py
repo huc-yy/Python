@@ -18,3 +18,4 @@ del mylist[0] # remove first items
 print 'shoplist is', shoplist
 print 'mylist is',mylist
 # notice that now the two lists are different
+#如果你想要复制一个列表或者类似的序列或者其他复杂的对象（不是如整数那样的简单 对象 ），那么你必须使用切片操作符来取得拷贝。
