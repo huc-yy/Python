@@ -23,7 +23,7 @@ if not os.path.exists(today):
 	print 'Successful created directory', today
 
 #备份文件的名字
-target = today + os.sep + now +'.zip'
+target = today + os.sep + now +'.zip' #os.sep 根据你所处的平台，自动地采用相应的分割符号。
 
 # 5. windo下用rar命令，最好的方式是将rar命令添加到环境变量
 #我的电脑右键属性-》高级-》环境变量-》系统变量-》新建
