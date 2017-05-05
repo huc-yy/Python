@@ -1,4 +1,5 @@
 # -*- coding:utf-8 -*-
+#查看文件
 
 import sys
 
